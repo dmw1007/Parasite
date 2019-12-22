@@ -1,0 +1,106 @@
+[
+    {
+        "label": "疟疾",
+        "background": "#083158",
+        "color": "#ffffff",
+        "asset":"Cells",
+        "items":
+        [
+            {
+                "start": 0,
+                "end": 100,
+                "label": "疟疾起源"
+            },
+            {
+                "start": 100,
+                "end": 200,
+                "label": "疟原虫各形态"
+            },
+
+            {
+                "start": 200,
+                "end": 300,
+                "label": "疟原虫生活史"
+            },
+            {
+                "start": 300,
+                "end": 400,
+                "label": "致病"
+            },
+            {
+                "start": 400,
+                "end": 500,
+                "label": "临床表现"
+            }
+        ]
+    },
+    {
+        "label": "日本血吸虫",
+        "background": "#fdfdfd",
+        "color": "#000000",
+        "asset":"nan",
+        "items":
+        [
+            {
+                "start": 500,
+                "end": 600,
+                "label": "起源"
+            },
+            {
+                "start": 600,
+                "end": 700,
+                "label": "血吸虫各形态"
+            },
+            {
+                "start": 700,
+                "end": 800,
+                "label": "生活史"
+            },
+            {
+                "start": 800,
+                "end": 900,
+                "label": "致病"
+            },
+          {
+            "start": 900,
+            "end": 1000,
+            "label": "临床表现"
+          }
+        ]
+    },
+    {
+        "label": "溶组织内阿米巴",
+        "background": "#001d22",
+        "color": "#ffffff",
+        "asset":"mic",
+        "items":
+        [
+            {
+                "start": 1000,
+                "end": 1100,
+                "label": "起源"
+            },
+            {
+                "start": 1100,
+                "end": 1200,
+                "label": "阿米巴各形态"
+            },
+            {
+                "start": 1200,
+                "end": 1300,
+                "label": "生活史"
+            },
+
+            {
+                "start": 1300,
+                "end": 1400,
+                "label": "致病"
+            },
+            {
+                "start": 1400,
+                "end": 1500,
+                "label": "临床表现"
+            }
+        ]
+    }
+]

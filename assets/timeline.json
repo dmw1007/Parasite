@@ -1,0 +1,282 @@
+[
+	{
+		"date": 40,
+		"label": "疟疾起源",
+		"sublabel": "Origin of malaria",
+		"article":"njqiyuan.txt",
+		"id": "Cells",
+		"background": [0, 38, 75],
+		"accent": [246, 76, 130, 255],
+		"ticks": 
+		{
+			"background": [20, 57, 92, 240],
+			"long": [255, 255, 255, 75],
+			"short": [255, 255, 255, 51],
+			"text": [255, 255, 255, 157]
+		},
+		"header": 
+		{
+			"background": [11, 47, 81, 94],
+			"text": [255, 255, 255, 157]
+		},
+		"asset": 
+		{
+			"source": "Cells/Cells.nma",
+			"width": 800,
+			"height": 400
+
+		}
+	},
+	{
+		"date": 140,
+		"label": "疟原虫各形态",
+		"sublabel": "Morphology of Plasmodium",
+		"article":"njxingtai.txt",
+		"accent": [255, 166, 20, 255],
+		"asset": 
+		{
+			"source": "malaria/malaria.nma",
+			"width": 500,
+			"height": 500,
+			"idle":"start"
+		}
+	},
+
+	{
+		"date": 225,
+		"label": "疟原虫生活史",
+		"sublabel": "Life History of Plasmodium",
+		"article": "njshenghuoshi.txt",
+		"accent": [255, 63, 0, 255],
+		"asset": 
+		{
+			"source": "mosquito/mosquito.nma",
+			"width": 400,
+			"height": 400,
+			"idle":"idle"
+		}
+	},
+	{
+		"start": 330,
+		"label": "疟原虫的致病",
+		"sublabel": "Pathogenic",
+		"article": "njzhibing.txt",
+		"background": [31, 89, 143],
+		"ticks": 
+		{
+			"background": [27, 79, 128, 240],
+			"long": [255, 255, 255, 75],
+			"short": [255, 255, 255, 51],
+			"text": [255, 255, 255, 157]
+		},
+		"header": 
+		{
+			"background": [27, 79, 128, 240],
+			"text": [255, 255, 255, 157]
+		},
+
+		"asset": 
+		{
+			"source": "NjPathogenic.flr",
+			"width": 800,
+			"height": 800,
+			"scale":1.2,
+			"bounds":[0.0, 0.0, 814.0, 664.0],
+			"idle":"start"
+		}
+	},
+	{
+		"date": 430,
+		"label": "疟疾临床表现",
+		"sublabel": "Clinical manifestation",
+		"article": "njlcbx.txt",
+		"accent": [255, 63, 0, 255],
+		"asset":
+		{
+			"source": "Nanshou/Nanshou.nma",
+			"width": 600,
+			"height": 600,
+			"idle":"start"
+		}
+	},
+	{
+		"date": 540,
+		"label": "血吸虫起源",
+		"sublabel": "Origin of Schistosomiasis",
+		"article":"xxqiyuan.txt",
+		"id":"xue",
+		"asset": 
+		{
+			"source": "origin/origin.nma",
+			"width": 400,
+			"height": 700,
+			"idle":"start"
+		}
+	},
+	{
+		"start": 635,
+		"label": "血吸虫各形态",
+		"sublabel": "Schistosomiasis morphology",
+		"article":"xxxingtai.txt",
+		"asset": 
+		{
+			"source": "Form/Form.nma",
+			"width": 814,
+			"height": 564,
+			"idle":"start"
+
+		},
+		"background": [132, 175, 214],
+		"accent": [55, 134, 222, 255],
+		"ticks": 
+		{
+			"background": [113, 152, 188, 240],
+			"long": [255, 255, 255, 75],
+			"short": [255, 255, 255, 51],
+			"text": [255, 255, 255, 157]
+		},
+		"header": 
+		{
+			"background": [113, 152, 188, 240],
+			"text": [255, 255, 255, 157]
+		}
+	},
+
+	{
+		"date": 735,
+		"label": "血吸虫生活史",
+		"sublabel": "Life history",
+		"article":"xxshenghuoshi.txt",
+		"asset": 
+		{
+			"source": "body/body.nma",
+			"width": 400,
+			"height": 400
+
+		}
+	},
+	{
+		"start": 840,
+		"label": "血吸虫致病",
+		"sublabel": "Pathogenic",
+		"article":"xxzhibing.txt",
+		"background": [255, 255, 255],
+		"accent": [202, 79, 63, 255],
+		"asset": 
+		{
+			"source": "xxczhibing/xxczhibing.nma",
+			"width": 600,
+			"height": 670,
+			"idle": "start"
+
+		},
+		"ticks": 
+		{
+			"background": [245, 245, 245, 240],
+			"long": [0, 0, 0, 60],
+			"short": [0, 0, 0, 35],
+			"text": [0, 0, 0, 110]
+		},
+		"header": 
+		{
+			"background": [245, 245, 245, 240],
+			"text": [0, 0, 0, 110]
+		}
+	},
+	{
+		"date": 930,
+		"label": "血吸虫病临床表现",
+		"sublabel": "Clinical manifestation",
+		"article":"xxlcbx.txt",
+		"id": "nan",
+		"asset": 
+		{
+			"source": "Nanshou/Nanshou.nma",
+			"width": 600,
+			"height": 600,
+			"idle": "start",
+			"offset": -40
+		}
+	},
+
+	{
+		"start": 1030,
+		"end": 1080,
+		"label": "阿米巴起源",
+		"id": "mic",
+		"sublabel": "Origin of Amoeba",
+		"article":"ambqiyuan.txt",
+		"accent": [227, 21, 55, 255],
+		"asset": 
+		{
+			"source": "microscope/microscope.nma",
+			"width": 528,
+			"height": 528,
+			"offset": -60
+		}
+	},
+	{
+		"date": 1135,
+		"label": "阿米巴各形态",
+		"sublabel": "Amiba morphology",
+		"article":"ambxingtai.txt",
+		"asset": 
+		{
+			"source": "Amibaxt/Amibaxt.nma",
+			"width": 350,
+			"height": 350,
+			"idle":"start"
+		}
+	},
+
+
+
+
+	{
+		"date": 1435,
+		"label": "阿米巴临床表现",
+		"sublabel": "Clinical manifestation",
+		"article":"amblcbx.txt",
+		"accent": [115, 132, 205, 255],
+		"asset": 
+		{
+			"source": "Nanshou/Nanshou.nma",
+			"width": 528,
+			"height": 528,
+			"offset": -100
+		}
+	},
+
+
+
+	{
+		"date": 1240,
+		"label": "阿米巴生活史",
+		"sublabel": "Life History of Amiba",
+		"article":"ambshenghuoshi.txt",
+		"asset":
+		{
+			"source": "Amibashs/Amibashs.nma",
+			"width": 528,
+			"height": 528
+
+		}
+	},
+
+	{
+		"date": 1360,
+		"label": "阿米巴的致病",
+		"sublabel": "Pathogenic",
+		"article":"ambzhibing.txt",
+		"id":"mlk",
+		"asset":
+		{
+			"source": "changdao2.flr",
+			"width": 528,
+			"height": 528,
+			"scale":1.2,
+			"bounds":[0.0, 0.0, 814.0, 664.0],
+			"idle":"start"
+		}
+	}
+]
